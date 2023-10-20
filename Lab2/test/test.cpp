@@ -85,10 +85,10 @@ TEST(test14, Seven) {
     ASSERT_TRUE(a == b);
 }
 
-TEST(test14, Seven) {
+TEST(test15, Seven) {
     Seven a("1341");
     Seven b({'1', '3', '4'});
-    ASSERT_TRUE(a == b);
+    ASSERT_TRUE(a != b);
 }
 
 int main(int argc, char **argv) {
