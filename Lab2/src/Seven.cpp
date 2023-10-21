@@ -4,7 +4,6 @@
 Seven::Seven() : size{0}, data{nullptr} {}
 
 Seven::Seven(const size_t & n, unsigned char t) : size{n} {
-    int data = 10;
     this->data = new unsigned char[n];
     for (size_t i = 0; i < n; ++i) {
         this->data[i] = t;
