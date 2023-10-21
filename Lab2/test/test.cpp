@@ -91,6 +91,24 @@ TEST(test15, Seven) {
     ASSERT_TRUE(a != b);
 }
 
+TEST(test16, Seven) {
+    Seven a("1341");
+    Seven b(3, '7');
+    ASSERT_TRUE(a != b);
+}
+
+TEST(test17, Seven) {
+    Seven a("1111");
+    Seven b(4, '1');
+    ASSERT_TRUE(a == b);
+}
+
+TEST(test18, Seven) {
+    Seven a({'1'});
+    Seven b({'2'});
+    ASSERT_TRUE(a < b);
+}
+
 int main(int argc, char **argv) {
     testing::InitGoogleTest(&argc, argv);
     return RUN_ALL_TESTS();
