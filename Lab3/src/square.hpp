@@ -6,7 +6,7 @@
 class Square {
 public:
     Square();
-    Square(Point &&p1, Point &&p2, Point &&p3);
+    Square(Point &&p1, Point &&p2, Point &&p3, Point &&p3);
     Square(std::istream &is);
 
     void print(std::ostream &os);

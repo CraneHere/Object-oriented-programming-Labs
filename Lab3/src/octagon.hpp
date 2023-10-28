@@ -16,7 +16,7 @@ public:
 
     Figure& move(Figure &&other) noexcept;
     Figure& operator=(const Figure &other);
-    bool operator==(const Figure &other);
+    bool operator==(const Figure &other) const override;
 
     virtual ~Octagon() noexcept;
 private:

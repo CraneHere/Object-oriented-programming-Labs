@@ -15,7 +15,7 @@ public:
 
     void addFigure(Figure *figure);
     void deleteFigure(size_t ind);
-    Figure& getFigure(size_t ind);
+    Figure* getFigure(size_t ind);
     
     ~Figures() noexcept;
 private:
