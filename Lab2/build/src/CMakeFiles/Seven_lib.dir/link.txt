@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc libSeven_lib.a CMakeFiles/Seven_lib.dir/Seven.cpp.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib libSeven_lib.a
