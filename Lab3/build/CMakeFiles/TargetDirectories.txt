@@ -1,2 +1,0 @@
-/Users/Shy/Documents/Object-oriented-programming-Labs/Lab3/build/CMakeFiles/edit_cache.dir
-/Users/Shy/Documents/Object-oriented-programming-Labs/Lab3/build/CMakeFiles/rebuild_cache.dir
