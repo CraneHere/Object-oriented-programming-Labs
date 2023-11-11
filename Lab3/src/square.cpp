@@ -13,7 +13,7 @@ Square::Square(Point &&p1, Point &&p2, Point &&p3, Point &&p4) {
     points[3] = p4;
 }
 
-void Square::print(std::ostream &os) {
+void Square::print(std::ostream &os) const{
     for (const auto &p : points) {
         os << p << " ";
     }

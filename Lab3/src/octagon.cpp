@@ -6,7 +6,7 @@ Octagon::Octagon(std::istream &is) {
     }
 }
 
-void Octagon::print(std::ostream &os) {
+void Octagon::print(std::ostream &os) const{
     for (const auto &p : points) {
         os << p << " ";
     }

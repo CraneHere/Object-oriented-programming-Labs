@@ -1,6 +1,6 @@
-#include "figures.hpp"
+#include "list.hpp"
 
-Figures::Figures() : size(0), figures(nullptr) {}
+Figures::Figures() : size(0), figures{nullptr} {}
 
 size_t Figures::getSize() const {return this->size;}
 
@@ -28,7 +28,7 @@ Figures::Figures(const std::initializer_list<unsigned char> &t, size_t flag) {
     }
 }
 
-void Figures::addFigure(Figure *figure) {
+void Figures::addFigure(Figure* figure) {
     Figure** newFigures = new Figure*[this->size + 1];
     for (size_t i = 0; i < this->size; ++i) {
         newFigures[i] = figures[i];

@@ -13,7 +13,7 @@ Triangle::Triangle(Point &&p1, Point &&p2, Point &&p3) {
     points[2] = p3;
 }
 
-void Triangle::print(std::ostream &os) {
+void Triangle::print(std::ostream &os) const {
     for (const auto &p : points) {
         os << p << " ";
     }
@@ -52,7 +52,6 @@ Point Triangle::center() const {
         for (size_t j = i + 1; j < 3; ++j) {
             centralX = (points[i].getX() + points[j].getX()) / 2;
             centralY = (points[i].getY() + points[j].getY()) / 2;
-            centerVertices
         }
     }
 }

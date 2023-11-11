@@ -3,13 +3,13 @@
 #include "figure.hpp"
 #include "point.hpp"
 
-class Square {
+class Square : public Figure {
 public:
     Square();
-    Square(Point &&p1, Point &&p2, Point &&p3, Point &&p3);
+    Square(Point &&p1, Point &&p2, Point &&p3, Point &&p4);
     Square(std::istream &is);
 
-    void print(std::ostream &os);
+    void print(std::ostream &os) const;
     double square() const;
     Point center() const;
 
