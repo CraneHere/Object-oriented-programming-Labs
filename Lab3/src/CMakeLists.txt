@@ -1,0 +1,1 @@
+add_library(src_lib figures.cpp hexagon.cpp point.cpp pentagon.cpp octagon.cpp)

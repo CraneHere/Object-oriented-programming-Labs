@@ -5,6 +5,7 @@
         "locale": "cpp",
         "typeinfo": "cpp",
         "vector": "cpp",
-        "new": "cpp"
+        "new": "cpp",
+        "iosfwd": "cpp"
     }
 }

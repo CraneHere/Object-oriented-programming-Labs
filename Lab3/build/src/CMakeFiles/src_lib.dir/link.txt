@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libsrc_lib.a CMakeFiles/src_lib.dir/figures.cpp.o CMakeFiles/src_lib.dir/hexagon.cpp.o CMakeFiles/src_lib.dir/point.cpp.o CMakeFiles/src_lib.dir/pentagon.cpp.o CMakeFiles/src_lib.dir/octagon.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libsrc_lib.a
