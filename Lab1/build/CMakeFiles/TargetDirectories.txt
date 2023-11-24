@@ -1,5 +1,0 @@
-/Users/Shy/Documents/OOP_Labs/build/CMakeFiles/task.dir
-/Users/Shy/Documents/OOP_Labs/build/CMakeFiles/tests.dir
-/Users/Shy/Documents/OOP_Labs/build/CMakeFiles/test.dir
-/Users/Shy/Documents/OOP_Labs/build/CMakeFiles/edit_cache.dir
-/Users/Shy/Documents/OOP_Labs/build/CMakeFiles/rebuild_cache.dir

@@ -1,1 +1,0 @@
-add_library(Seven_lib Seven.cpp)
