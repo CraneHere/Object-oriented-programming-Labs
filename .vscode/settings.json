@@ -1,9 +1,0 @@
-{
-    "files.associations": {
-        "__split_buffer": "cpp",
-        "bitset": "cpp",
-        "locale": "cpp",
-        "typeinfo": "cpp",
-        "vector": "cpp"
-    }
-}
